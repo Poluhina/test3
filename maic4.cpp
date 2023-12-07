@@ -2,4 +2,12 @@
 
 struct DynamicArray
 {
-  iny*array
+  int*array
+  size_t size;
+  size_t capacity;
+
+DynamicArray* createDinamicArrayWithCapacity(); {
+return new DynamicArray();
+}
+
+  
