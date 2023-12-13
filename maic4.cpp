@@ -1,13 +1,13 @@
 #include <iostream>
 
-struct DynamicArray
-{
-  int*array
-  size_t size;
-  size_t capacity;
+struct DynamicArray {
+  int* array; //указатель на массив
+  size_t size; //текущий размер массива
+  size_t capacity; //максимальная вместимость массива
+};
 
 DynamicArray* createDinamicArrayWithCapacity(); {
-return new DynamicArray();
+return new DynamicArray(); //создание динамического массива и возвращение указателя на него
 }
 
   
